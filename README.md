@@ -22,3 +22,5 @@ npm i
 ```bash
 npm start
 ```
+
+Then open a browser to [localhost:3000](http://localhost:3000).
