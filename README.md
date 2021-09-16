@@ -1,6 +1,6 @@
 # TODO, progressively-enhanced
 
-I'm intrigued by the idea of the ToDo App always being a client-driven app. What does a server-side version of the ToDo App look like? What does a progressively-enhanced version of that look like? How difficult is it build?
+I'm intrigued by the idea of a ToDo App being a server-driven app. What does a server-side version of the ToDo App look like? What does a progressively-enhanced version of _that_ look like? How difficult is it build?
 
 ## Development & install
 
