@@ -1,0 +1,10 @@
+<form action="/api/todos/edit" method="PUT">
+  <input type="hidden" name="id" value="{{todo.id}}">
+  <div>
+    <label>Title</label>
+    <input type="text" id="txt_title" name="title" value="{{todo.title}}" required>
+  </div> 
+  <div>
+    <button type="submit">Save</button>
+  </div>
+</form>
