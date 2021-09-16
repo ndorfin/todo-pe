@@ -1,12 +1,13 @@
 {
   "name": "todo-pe",
   "version": "1.0.0",
-  "description": "",
+  "description": "An attempt at a progressively-enhanced server-side TODO app",
   "main": "index.js",
   "scripts": {
+    "start": "npm run server",
     "server": "nodemon -e js,njk server.js"
   },
-  "author": "",
+  "author": "@ndorfin",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
