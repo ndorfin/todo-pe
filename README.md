@@ -11,7 +11,9 @@ This project uses:
 - Express (For routing, CRUD API, and server-side views)
 - Nunjucks (Server-side templating)
 
-### Installing a development environment
+### Installing the development environment
+
+Clone this repo to somewhere on your machine, then in that folder…
 
 ```bash
 npm i

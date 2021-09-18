@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run server",
-    "server": "nodemon -e js,njk server.js"
+    "server": "nodemon -e js,njk index.js"
   },
   "author": "@ndorfin",
   "license": "ISC",

@@ -2,9 +2,9 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-const ToDo = require('./model/todo');
-const exampleData = require('./model/example_data');
-const API = require('./server/api');
+const ToDo = require('../model/todo');
+const exampleData = require('../model/example_data');
+// const API = require('./api');
 const nunjucks = require('nunjucks');
 
 nunjucks.configure('views', {
@@ -31,7 +31,9 @@ app.get('/', (request, response) => {
 
 app.get('/create', (request, response) => {
   response
-    .render('create.njk');
+    .render('create.njk', {
+      urlFormSuccess: '/create/thanks'
+    });
 });
 
 app.get('/create/thanks', (request, response) => {

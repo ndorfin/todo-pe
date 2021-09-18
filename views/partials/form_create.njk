@@ -1,13 +1,12 @@
-<form action="/todos/create" method="POST">
+<form action="/todos/create" method="POST" data-success="{{ urlFormSuccess }}">
   <div>
     <label>Title</label>
     <input type="text" id="txt_title" name="title" required>
-  </div> 
-  <div>
-    <label>name</label>
-    <input type="text" id="txt_name" name="name" required>
-  </div> 
+  </div>
   <div>
     <button type="submit">Save</button>
   </div>
 </form>
+<template id="form_create_error">
+
+</template>
